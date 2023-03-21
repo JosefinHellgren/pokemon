@@ -1,0 +1,115 @@
+body{
+    background-color: plum;
+}
+
+#demo-button{
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+.pokemonCard{
+    width: 175px;
+    height: 250px;
+    background-color: antiquewhite;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.pokemonCard img{
+border: 1px solid black;
+
+}
+
+#card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#secret_card{
+   
+
+    width: 175px;
+    height: 250px;
+    background-color: lavenderblush;
+    border-radius: 10px;
+    font-size: 130px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    
+}
+
+
+#secret_card img{
+    z-index: 555.5;
+    width: 400px;
+    height: 500px;
+}
+#geuss-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   padding-left: 30px;
+   margin: 15px;
+
+}
+#inner-container{
+    
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.nameButton{
+    font-size: 30px;
+}
+
+#type-button{
+   padding: 15px;
+    font-size: 35px;
+    position: relative;
+    border-radius: 30px;
+
+
+}
+
+#ability-button{
+    padding: 15px;
+    position: relative;
+    font-size: 35px;
+    border-radius: 30px;
+
+}
+
+#abilitySelect{
+    position: absolute;
+    top: 90px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+
+}
+
+#typeSelect{
+    position: absolute;
+    top: 90px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+#countdown{
+    font-size: 30px;
+    color: black;
+   
+    
+    
+
+}
