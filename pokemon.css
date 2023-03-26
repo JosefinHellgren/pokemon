@@ -1,0 +1,45 @@
+.bigPokemonCard{
+    justify-content: center;
+     width: 300px; 
+     height: 400px;
+     background-color: aquamarine;
+     border: 10px solid orange;
+     border-radius: 10px;
+     box-shadow: 0 4px 16px 0 rgba(0,0,0,0.4);
+     background-image: radial-gradient(circle, #dc6c5b, #ed8556, #f7a152, #fcbf52, #f9de5b);
+ 
+ }
+
+
+ .shinyImage{
+    height: 150px;
+    width: 200px;
+    margin-left: 17%;
+    border: 1px solid black;
+    justify-content: center;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.4);
+    background-image: radial-gradient(circle, #693b08, #905d12, #b6831d, #d9ac29, #f9d838);
+}
+.smallerImage{
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(175, 201, 175, 0.721);
+}
+.muchText{
+    text-overflow: clip;
+    max-height: 70px;
+    font-size: 10px;
+}
+
+.heightAndWeight{
+   
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient(circle, #f2e8a5, #f0e18c, #eedb71, #ecd356, #ebcc35);
+    font-style: bold;
+    font-size: 12px;
+    width: 60%;
+
+}
